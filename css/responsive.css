@@ -1,0 +1,178 @@
+@media only all and (max-width: 320px) {
+    #header .text-banner .heading,
+    #header .text-banner .sub-title {
+        font-size: 30px !important;
+    }
+    .title h1 {
+        font-size: 25px !important;
+    }
+    #banner .item img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only all and (max-width: 480px) {
+    #header .navbar-toggle {
+        right: 7% !important;
+        top: 8% !important;
+    }
+    #header .text-banner .heading {
+        font-size: 45px;
+    }
+    .title h1 {
+        font-size: 30px;
+    }
+    #reservation .col {
+        flex-basis: 100% !important;
+    }
+    .copyright p {
+        display: none;
+    }
+    #header .logo img {
+        max-width: 200px;
+    }
+    .title p {
+        text-align: justify;
+        letter-spacing: -0.2px;
+    }
+    #food img {
+        width: 100%;
+    }
+}
+
+@media only all and (max-width: 600px) {
+    #header .header-nav .icon-phone {
+        display: none !important;
+    }
+    #header .navbar-toggle {
+        right: 7% !important;
+        top: 13% !important;
+    }
+    #food .banner-left {
+        margin-bottom: 30px;
+    }
+    #food .banner-right a.thumb-3 {
+        margin-top: 30px;
+    }
+    #footer .copyright {
+        padding-bottom: 50px;
+    }
+    #header {
+        min-height: 595px;
+    }
+    #header .text-banner {
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    #header .navbar-toggle {
+        right: 10% !important;
+        top: 11% !important;
+    }
+    #header .header-nav .icon-phone {
+        display: none
+    }
+    #header .navbar-toggle {
+        right: 8% !important;
+    }
+}
+
+@media only all and (max-width: 736px) {
+    #header .navbar-toggle {
+        right: 13% !important;
+    }
+}
+
+@media only all and (max-width: 767px) {
+    #food .banner-right a.thumb-3 {
+        margin-top: 20px;
+    }
+    #header .header-nav .phone-call {
+        display: none !important;
+    }
+    #header .header-nav .phone-call {
+        display: block;
+    }
+}
+
+@media only all and (max-width: 1023px) {
+    .navbar-toggle {
+        display: block;
+        right: 32% !important;
+        position: absolute;
+        top: 8% !important;
+        font-size: 30px;
+    }
+    #header .header-nav .delivery {
+        font-size: 12px;
+    }
+    #header .header-nav a.phone-call-number {
+        font-size: 18px;
+    }
+    #header .header-nav .phone-call {
+        align-self: flex-end;
+    }
+    #header .text-banner {
+        max-width: 100% !important;
+        margin-top: 100px;
+    }
+    #header .text-banner .sub-title {
+        font-size: 50px;
+    }
+    #header .text-banner .sub-title {
+        font-size: 38px;
+    }
+    #header .text-banner .body-text {
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    #food .banner-right a.thumb-3 {
+        margin-top: 20px;
+    }
+    #header {
+        background: url("../images/bg-yellow.png") center center / cover no-repeat;
+    }
+}
+
+@media only all and (max-width: 1367px) {
+    #header .header-menu {
+        display: none;
+        width: 100%;
+        background: #4b4b4b;
+        left: 0;
+        position: absolute;
+        top: 120px;
+    }
+    #header .header-menu li {
+        padding: 10px 45px;
+    }
+    #header .header-menu li a {
+        color: #fff;
+    }
+    .navbar-toggle {
+        display: block;
+        right: 30%;
+        position: absolute;
+        top: 8%;
+        font-size: 30px;
+    }
+    #footer .sub-footer {
+        display: block !important;
+    }
+    #footer .information {
+        margin-left: 0;
+        padding-top: 60px;
+    }
+    #footer .copyright {
+        padding-top: 50px;
+    }
+    #banner .item {
+        text-align: center;
+    }
+    #banner .item_detail {
+        max-width: 100%;
+    }
+    #banner::after {
+        content: none;
+    }
+}

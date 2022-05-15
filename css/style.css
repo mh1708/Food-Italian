@@ -1,0 +1,300 @@
+#header {
+    position: relative;
+    min-height: 825px;
+    background: url("../images/bg-1.png") center center / cover no-repeat;
+}
+
+#header::after {
+    content: "";
+    display: block;
+    background: url("../images/Spaghetti.png") 0% 0% / 100% no-repeat;
+    left: 0px;
+    position: absolute;
+    width: 17%;
+    height: 100%;
+    top: 64%;
+}
+
+#header .header-nav {
+    padding-top: 50px;
+}
+
+#header .header-nav .phone-call {
+    align-self: center;
+}
+
+#header .header-nav .phone-number {
+    max-width: 203px;
+    text-align: right;
+    line-height: 25px;
+}
+
+#header .header-nav .delivery {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+#header .header-nav a.phone-call-number {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#header .header-nav .icon-phone {
+    padding-left: 18px;
+}
+
+#header .header-menu {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+#header .header-menu li:last-child {
+    padding-right: 0px;
+}
+
+#header .header-menu li {
+    padding: 0px 45px;
+}
+
+#header .header-menu li a {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+#header .text-banner {
+    font-family: "Fredericka the Great", cursive;
+    text-align: center;
+    max-width: 570px;
+    margin-top: 60px;
+}
+
+#header .text-banner .heading {
+    font-size: 50px;
+    font-family: Gabelisa !important;
+}
+
+#header .text-banner .sub-title {
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+#header .text-banner .body-text {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgb(204, 179, 1);
+    max-width: 393px;
+    margin: 0px auto;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif !important;
+}
+
+#header .text-banner .happy-hours {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+#header .text-banner .happy-hours .time {
+    text-transform: uppercase;
+}
+
+#header .text-banner .happy-hours .caculate {
+    align-self: start;
+    font-size: 45px;
+    line-height: 48px;
+    padding-left: 15px;
+    letter-spacing: -8px;
+}
+
+#header .text-center.sumbit {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+#header .text-center.sumbit button {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#banner {
+    min-height: 900px;
+    position: relative;
+}
+
+#banner::after {
+    content: "";
+    display: block;
+    background: url("../images/thanh.png") center top 110px / 100% no-repeat;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 35%;
+}
+
+#banner .container {
+    max-width: 1250px;
+}
+
+#banner .item {
+    padding-top: 50px;
+}
+
+#banner .item img {
+    width: 372px;
+    height: 353px;
+}
+
+#banner .item_detail {
+    max-width: 380px;
+    text-align: center;
+}
+
+#banner .item_detail h3 {
+    font-size: 18px;
+}
+
+#banner .btn.btn-order {
+    margin-top: 35px;
+    background: rgb(255, 224, 1);
+    border: none;
+}
+
+#discover .title h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#discover .slider {
+    margin-top: 74px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#slider {
+    position: relative;
+    margin-top: 43px;
+}
+
+#slider .owl-item.active.center .slider-card {
+    transform: scale(1.5);
+    filter: brightness(1);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+#slider .owl-item.active.center {
+    z-index: 99;
+}
+
+#slider .slider-card {
+    transform: scale(1);
+    filter: brightness(0.6);
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+#food .container {
+    max-width: 1235px;
+}
+
+#food .banner-right a.thumb-3 {
+    margin-top: 35px;
+    display: block;
+}
+
+#food {
+    margin-top: 99px;
+}
+
+#reservation .container {
+    max-width: 811px;
+}
+
+#reservation button {
+    background: rgb(255, 224, 1);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+#reservation .booking {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#reservation ::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+#reservation .title .heading {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#footer {
+    min-height: 582px;
+    background-image: url("../images/bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-left: 28px;
+    padding-right: 0px;
+}
+
+#footer .logo {
+    padding-top: 96px;
+    display: block;
+}
+
+#footer .container {
+    max-width: 1235px;
+}
+
+#footer p,
+#footer a {
+    color: rgb(255, 255, 255);
+    max-width: 517px;
+}
+
+#footer .sub-footer {
+    padding-top: 68px;
+}
+
+#footer .information {
+    margin-left: 300px;
+}
+
+#footer .copyright {
+    padding-top: 176px;
+}
+
+#footer .copyright {
+    color: rgb(255, 255, 255);
+}
+
+#footer .copyright li {
+    padding: 0px 10px;
+}
+
+#footer .copyright li a {
+    display: block;
+    border-radius: 20px;
+    padding: 2px 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
